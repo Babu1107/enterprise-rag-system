@@ -1,6 +1,5 @@
 import os
 from groq import Groq
-from google.colab import userdata
 
 client = Groq(api_key=os.environ["GROQ_API_KEY"])
 MODEL_NAME = "openai/gpt-oss-120b"
